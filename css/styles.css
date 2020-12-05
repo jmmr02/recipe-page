@@ -199,6 +199,7 @@ h3 {
 	font-size: 1.2rem;
 	font-style: italic;
 	color: var(--color-secondary);
+	padding-top: 5em;
 }
 
 .source-link {
@@ -231,4 +232,90 @@ footer {
 .attribution-link:visited {
 	text-decoration: none;
 	color: var(--color-attribution);
+}
+
+@media (min-width: 1366px) {
+	header {
+		margin-bottom: 3em;
+	}
+
+	.container--main {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 4.8em;
+	}
+
+	.container-content--aside {
+		order: 2;
+		position: relative;
+		width: 30%;
+	}
+
+	.container-content--primary {
+		width: 55%;
+	}
+
+	.statistics--second-row {
+		display: block;
+		margin: 0;
+	}
+
+	.statistics {
+		background: #ffffff;
+		width: 216px;
+		padding: 5em 4em;
+		margin: 0;
+		box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+		border-radius: 12px;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	.stats {
+		margin-bottom: 4.5em;
+	}
+
+	.stats:last-of-type {
+		margin-bottom: 0;
+	}
+
+	.material-icons {
+		margin-right: 0.5em;
+	}
+}
+
+@media (min-width: 1440px) {
+	h1 {
+		font-size: 4.8rem;
+	}
+
+	h2 {
+		font-size: 2.4rem;
+	}
+
+	h3 {
+		font-size: 1.8rem;
+	}
+
+	.input-label {
+		font-size: 1.6rem;
+	}
+
+	.instructions__text {
+		font-size: 1.6rem;
+	}
+
+	.description {
+		font-size: 1.4rem;
+	}
+
+	.source,
+	.source-link {
+		font-size: 1.6rem;
+	}
+
+	.stats__value {
+		font-size: 1.2rem;
+	}
 }
